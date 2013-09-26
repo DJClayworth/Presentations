@@ -70,7 +70,6 @@ Page {
     actions: [
         ActionItem {
             title: "Display Menu"
-            imageSource: "asset:///images/ic_open.png"
             ActionBar.placement: ActionBarPlacement.OnBar
             onTriggered: {
                 menuButton.clicked()
